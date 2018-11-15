@@ -30,8 +30,6 @@
 
 		box-sizing: border-box;
 
-	}
-
 	html, body {
 
 		margin: 0;
@@ -48,7 +46,7 @@
 
 	}
 
-	body {
+	bod {
 
 		background: rgb(8,5,16);
 
@@ -57,7 +55,6 @@
 		-webkit-user-select: none;
 
 		-khtml-user-select: none;
-
 		-moz-user-select: none;
 
 		-ms-user-select: none;
@@ -66,7 +63,7 @@
 
 	}
 
-	
+
 
 	h1 {
 
@@ -75,7 +72,6 @@
 		font-weight: 400;
 
 		letter-spacing: 0.35em;
-
 		text-shadow: 0 0 25px rgba(254,254,255,0.85);
 
 	}
@@ -84,7 +80,7 @@
 
 		font: 1.45em 'Cinzel', serif;
 
-		font-weight: 400;
+		font-weight: 400
 
 		letter-spacing: 0.5em;
 
@@ -93,7 +89,6 @@
 		text-transform: lowercase;
 
 	}
-
 	
 
 	[class^="letter"] {
@@ -102,7 +97,7 @@
 
 		-moz-transition: opacity 3s ease;
 
-		transition: opacity 3s ease;
+		transition: opacity 3s ease
 
 	}
 
@@ -111,7 +106,6 @@
 	.letter-1  { transition-delay: 0.4s; }
 
 	.letter-2  { transition-delay: 0.6s; }
-
 	.letter-3  { transition-delay: 0.8s; }
 
 	.letter-4  { transition-delay: 1.0s; }
@@ -120,7 +114,7 @@
 
 	.letter-6  { transition-delay: 1.4s; }
 
-	.letter-7  { transition-delay: 1.6s; }
+	.letter-7  { transition-delay: 1.6s; 
 
 	.letter-8  { transition-delay: 1.8s; }
 
@@ -129,7 +123,6 @@
 	.letter-10 { transition-delay: 2.2s; }
 
 	.letter-11 { transition-delay: 2.4s; }
-
 	.letter-12 { transition-delay: 2.6s; }
 
 	.letter-13 { transition-delay: 2.8s; }
@@ -138,7 +131,7 @@
 
 	
 
-	h1, h2 {
+	h1, h2 
 
 		visibility: hidden;
 
@@ -147,7 +140,6 @@
 		-moz-transform: translate3d(0, 0, 0);
 
 		transform: translate3d(0, 0, 0);
-
 	}	
 
 	h1.transition-in,
@@ -156,7 +148,7 @@
 
 		visibility: visible;
 
-	}
+
 
 	h1 [class^="letter"], 
 
@@ -166,7 +158,7 @@
 
 	}
 
-	h1.transition-in [class^="letter"],
+	h1.transition-in [class^="letter"]
 
 	h2.transition-in [class^="letter"] {
 
@@ -175,7 +167,6 @@
 	}
 
 	
-
 	#container {
 
 		display: table;
@@ -184,7 +175,7 @@
 
 		z-index: 20;
 
-		width: 100%;
+		idth: 100%;
 
 		height: 100%;
 
@@ -193,7 +184,6 @@
 		cursor: none;
 
 	}
-
 	#container > div {
 
 		display: table-cell;
@@ -202,7 +192,7 @@
 
 	}
 
-	#container p {
+	#cont
 
 		position: absolute;
 
@@ -212,7 +202,7 @@
 
 		bottom: 25px;
 
-		font-size: 0.8em;
+		font-size: 0.8e;
 
 		letter-spacing: 0.1em;
 
@@ -221,7 +211,6 @@
 		color: #76747a;
 
 		-webkit-font-smoothing: subpixel-antialiased;
-
 		font-smoothing: subpixel-antialiased; 
 
 	}
@@ -230,7 +219,7 @@
 
 		color: #b3abc5;
 
-	}
+	
 
 	#container p span {
 
@@ -239,7 +228,6 @@
 		padding: 0 2px;
 
 	}
-
 	
 
 	#canvas {
@@ -248,7 +236,7 @@
 
 		z-index: 10;
 
-		top: 0;
+		op: 0;
 
 		left: 0;
 
@@ -257,7 +245,6 @@
 		height: 100%;
 
 		cursor: none;
-
 	}
 
 	
@@ -266,7 +253,7 @@
 
 		position: absolute; 
 
-		z-index: 10; 
+		z-index: 10;
 
 		left: 10px; 
 
@@ -275,7 +262,6 @@
 	}
 
 	
-
 	.dg.ac {
 
 		z-index: 100 !important;
@@ -284,7 +270,7 @@
 
 	
 
- 
+
 
 	.STYLE1 {
 
@@ -293,7 +279,6 @@
 	font-weight: bold;
 
 }
-
     </style>
 
 	
@@ -303,7 +288,6 @@
 </head>
 
 <body>
-
 <body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
 
  
@@ -312,7 +296,7 @@
 
  
 
-	<div>
+	<div
 
 	<h1 id="h1">We are 玛雅安全小组</h1>
 
@@ -321,7 +305,6 @@
         <h3 id="h3">We Just Hacking For Fun</h3>
 
 	<h4 id="h4">&nbsp; </h4>
-
 	<h4> >我不是黑客，也不是红客，更不是什么骇客< </h4>
 
 	<h4 id="h4">&nbsp; </h4>
@@ -330,7 +313,7 @@
 
 	<h4 id="h4">&nbsp; </h4>
 
-	<h4>>我非善人，但是可以明辨是非<</h4>
+	<h4>>我非善人，但是可以明辨是非<</h4
 
 	<h4 id="h4">&nbsp; </h4>
 
@@ -339,7 +322,6 @@
 	<h4 id="h4">&nbsp; </h4>
 
 	<h4>           >我虽孤独<</h4>
-
 	<h4 id="h4">&nbsp; </h4>
 
 	<h4>>但是喜欢在键盘上敲击我的梦想<</h4>
@@ -348,7 +330,7 @@
 
 	<h4>         >仅仅为了证明<</h4>
 
-	<h4 id="h4">&nbsp; </h4>
+	<h4 id="h4">&nbsp; </h4
 
 	<h4 class="STYLE1"><a"http://jq.qq.com/?_wv=1027&k=Ygnjvu"&&&&>>>>>>>我心中的梦，心中的理想，仅凭我个人智商挑战你们所有人<<<<<<<</a></h4>
 
@@ -357,7 +339,6 @@
  
 
 </div>
-
  
 
 <canvas id="canvas"></canvas>
@@ -366,7 +347,7 @@
 
 <audio autoplay="autoplay">
 
-	<source src="http://labs.nikrowell.com/lightsandmotion/ultraviolet/udio/Ultraviolet.ogg" type="audio/ogg">
+	<source src="http://labs.nikrowell.com/lightsandmotion/ultraviolet/udio/Ultraviolet.ogg" type="audio/ogg"
 
 	<source src="http://7nj2ep.com1.z0.glb.clouddn.com/1433.mp3" type="audio/mpeg">
 
@@ -375,7 +356,6 @@
  
 
  
-
 <script> 
 
  
@@ -384,7 +364,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 </script>
 
-<script> 
+<script>
 
  
 
@@ -393,7 +373,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
  
 
 	var ctx,
-
 		hue,
 
 		logo,
@@ -402,7 +381,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		buffer,
 
-		target = {},
+		target = {}
 
 		tendrils = [],
 
@@ -411,7 +390,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 	
 
 	settings.debug = true;
-
 	settings.friction = 0.5;
 
 	settings.trails = 20;
@@ -420,7 +398,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 	settings.dampening = 0.25;
 
-	settings.tension = 0.98;
+	settings.tension = 0.98
 
 	
 
@@ -432,9 +410,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 	// Oscillator
 
-	// ----------------------------------------------------------------------------------------
-
-	
+	// --------------------------------------------------------------------------------------
 
 	function Oscillator(options) {
 
@@ -446,7 +422,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 	Oscillator.prototype = (function() {
 
-		
+	
 
 		var value = 0;
 
@@ -455,7 +431,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		return {
 
 			
-
 			init: function(options) {
 
 				this.phase = options.phase || 0;
@@ -464,7 +439,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 				this.frequency = options.frequency || 0.001;
 
-				this.amplitude = options.amplitude || 1;
+				this.amplitude = options.amplitude || 1
 
 			},
 
@@ -473,7 +448,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 			update: function() {
 
 				this.phase += this.frequency;
-
 				value = this.offset + Math.sin(this.phase) * this.amplitude;
 
 				return value;
@@ -482,7 +456,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 			
 
-			value: function() {
+			value: function() 
 
 				return value;
 
@@ -491,7 +465,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		};
 
 			
-
 	})();
 
 	
@@ -500,7 +473,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 	// Tendril
 
-	// ----------------------------------------------------------------------------------------
+	// ---------------------------------------------------------------------------------------
 
 	
 
@@ -509,7 +482,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		this.init(options || {});
 
 	}
-
 	
 
 	Tendril.prototype = (function() {
@@ -518,7 +490,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		function Node() {
 
-			this.x = 0;
+			this.x = 0
 
 			this.y = 0;
 
@@ -527,7 +499,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 			this.vx = 0;
 
 		}
-
 		
 
 		return {
@@ -536,7 +507,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 			init: function(options) {
 
-				
+			
 
 				this.spring = options.spring + (Math.random() * 0.1) - 0.05; 
 
@@ -545,7 +516,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 				this.nodes = [];
 
 				
-
 				for(var i = 0, node; i < settings.size; i++) {
 
 			
@@ -554,7 +524,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 					node.x = target.x;
 
-					node.y = target.y;
+					node.y = target.y
 
 			
 
@@ -562,8 +532,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 				}	
 
-			},
-
+			,
 			
 
 			update: function() {
@@ -572,8 +541,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 				var spring = this.spring,
 
-					node = this.nodes[0];
-
+					node = this.nodes[0]
 				
 
 				node.vx += (target.x - node.x) * spring;
@@ -583,7 +551,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 				
 
 				for(var prev, i = 0, n = this.nodes.length; i < n; i++) {
-
 	
 
 					node = this.nodes[i];
@@ -592,7 +559,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 					if(i > 0) {
 
-						
+					
 
 						prev = this.nodes[i - 1];
 
@@ -601,7 +568,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 						node.vx += (prev.x - node.x) * spring;
 
 						node.vy += (prev.y - node.y) * spring;
-
 						node.vx += prev.vx * settings.dampening;
 
 						node.vy += prev.vy * settings.dampening;
@@ -610,7 +576,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 					
 
-					node.vx *= this.friction;
+					ode.vx *= this.friction;
 
 					node.vy *= this.friction;
 
@@ -619,7 +585,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 					node.y += node.vy;
 
 					
-
 					spring *= settings.tension;
 
 				}
@@ -628,7 +593,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 	
 
-			draw: function() {
+			draw: function() 
 
 			
 
@@ -637,7 +602,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 					y = this.nodes[0].y,
 
 					a, b;
-
 				
 
 				ctx.beginPath();
@@ -646,7 +610,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 				
 
-				for(var i = 1, n = this.nodes.length - 2; i < n; i++) {
+				for(var i = 1, n = this.nodes.length - 2; i < n; i++) 
 
 					
 
@@ -655,7 +619,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 					b = this.nodes[i + 1];
 
 					x = (a.x + b.x) * 0.5;
-
 					y = (a.y + b.y) * 0.5;
 
 					
@@ -664,7 +627,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 				}
 
-				
+			
 
 				a = this.nodes[i];
 
@@ -673,7 +636,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 				
 
 				ctx.quadraticCurveTo(a.x, a.y, b.x, b.y);
-
 				ctx.stroke();
 
 				ctx.closePath();
@@ -682,7 +644,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		};
 
-	
+
 
 	})();
 
@@ -691,7 +653,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 	// ----------------------------------------------------------------------------------------
 
 	
-
 	function init(event) {
 
 	
@@ -700,7 +661,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		document.removeEventListener('touchstart', init);
 
-		
+	
 
 		document.addEventListener('mousemove', mousemove);
 
@@ -709,7 +670,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		document.addEventListener('touchstart', touchstart);
 
 		
-
 		mousemove(event);
 
 		reset();
@@ -718,7 +678,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 	}
 
-	
+
 
 	function reset() {
 
@@ -727,7 +687,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		tendrils = [];
 
  
-
 		for(var i = 0; i < settings.trails; i++) {
 
 			
@@ -736,7 +695,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 				spring: 0.45 + 0.025 * (i / settings.trails)
 
-			}));
+			}))
 
 		}
 
@@ -745,7 +704,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 	
 
 	function loop() {
-
 		
 
 		if(!ctx.running) return;
@@ -754,7 +712,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		ctx.globalCompositeOperation = 'source-over';
 
-		ctx.fillStyle = 'rgba(8,5,16,0.4)';
+		ctx.fillStyle = 'rgba(8,5,16,0.4)
 
 		ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
@@ -764,7 +722,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		ctx.lineWidth = 1;
 
-		
+	
 
 		if(ctx.frame % 60 == 0) {
 
@@ -773,7 +731,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		}
 
 		
-
 		for(var i = 0, tendril; i < settings.trails; i++) {
 
 			tendril = tendrils[i];
@@ -782,7 +739,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 			tendril.draw();
 
-		}
+		
 
 		
 
@@ -791,7 +748,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		ctx.stats.update();
 
 		requestAnimFrame(loop);
-
 	}
 
 	
@@ -800,7 +756,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		ctx.canvas.width = window.innerWidth;
 
-		ctx.canvas.height = window.innerHeight;
+		ctx.canvas.height = window.innerHeight
 
 	}
 
@@ -809,7 +765,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 	function start() {
 
 		if(!ctx.running) {
-
 			ctx.running = true;
 
 			loop();
@@ -818,7 +773,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 	}
 
-	
+
 
 	function stop() {
 
@@ -827,7 +782,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 	}
 
 	
-
 	function mousemove(event) {
 
 		if(event.touches) {
@@ -836,7 +790,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 			target.y = event.touches[0].pageY;
 
-		} else {
+		} else 
 
 			target.x = event.clientX
 
@@ -845,7 +799,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		}
 
 		event.preventDefault();
-
 	}
 
 	
@@ -854,7 +807,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		if(event.touches.length == 1) {
 
-			target.x = event.touches[0].pageX;
+			target.x = event.touches[0].pageX
 
 			target.y = event.touches[0].pageY;
 
@@ -863,7 +816,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 	}
 
 	
-
 	function keyup(event) {
 
 		
@@ -872,7 +824,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 			case 32:
 
-				save();
+				save()
 
 				break;
 
@@ -881,7 +833,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 				// console.log(event.keyCode);
 
 		}
-
 	}
 
 	
@@ -890,7 +841,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 	
 
-		var el = document.getElementById(id),
+		var el = document.getElementById(id)
 
 			letters = el.innerHTML.replace('&amp;', '&').split(''),
 
@@ -899,7 +850,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		
 
 		for(var i = 0, n = letters.length, letter; i < n; i++) {
-
 			letter = letters[i].replace('&', '&amp');
 
 			heading += letter.trim() ? '<span class="letter-' + i + '">' + letter + '</span>' : '&nbsp;';
@@ -908,7 +858,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		
 
-		el.innerHTML = heading;
+		el.innerHTML = heading
 
 		setTimeout(function() { 
 
@@ -917,7 +867,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		}, (Math.random() * 500) + 500);
 
 	}
-
 	
 
 	function save() {
@@ -926,7 +875,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		if(!buffer) {
 
-			
+		
 
 			buffer = document.createElement('canvas');
 
@@ -934,8 +883,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 			buffer.height = screen.availHeight;
 
-			buffer.ctx = buffer.getContext('2d');
-
+			buffer.ctx = buffe
 			
 
 			form = document.createElement('form');
@@ -945,7 +893,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 			form.input = document.createElement('input');
 
 			form.input.type = 'hidden';
-
 			form.input.name = 'data';
 
 			form.appendChild(form.input);
@@ -954,7 +901,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 			document.body.appendChild(form);
 
-		}
+		
 
 	
 
@@ -963,7 +910,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		buffer.ctx.fillRect(0, 0, buffer.width, buffer.height);
 
 		
-
 		buffer.ctx.drawImage(canvas,
 
 			Math.round(buffer.width / 2 - canvas.width / 2), 
@@ -972,7 +918,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		);
 
-		
+	
 
 		buffer.ctx.drawImage(logo,
 
@@ -981,7 +927,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 			Math.round(buffer.height / 2 - logo.height / 4),
 
 			logo.width / 2,
-
 			logo.height / 2
 
 		);
@@ -990,7 +935,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		window.open(buffer.toDataURL(), 'wallpaper', 'top=0,left=0,width=' + buffer.width + ',height=' + buffer.height);
 
-		
+	
 
 		// form.input.value = buffer.toDataURL().substr(22);
 
@@ -999,7 +944,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 	}
 
 	
-
 	window.requestAnimFrame = (function() {
 
 		return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function(fn) { window.setTimeout(fn, 1000 / 60) };
@@ -1008,7 +952,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 	
 
-	window.onload = function() {
+	window.onload = function() 
 
 		
 
@@ -1017,7 +961,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		ctx.stats = new Stats();
 
 		ctx.running = true;
-
 		ctx.frame = 1;
 
 		
@@ -1026,7 +969,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		logo.src = 'http://labs.nikrowell.com/lightsandmotion/ultraviolet/images/logo.png';
 
-		
+	
 
 		hue = new Oscillator({
 
@@ -1035,7 +978,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 			amplitude: 85,
 
 			frequency: 0.0015,
-
 			offset: 285
 
 		});
@@ -1044,7 +986,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		letters('h1');
 
-		letters('h2');
+		letters('h2')
 
 		
 
@@ -1053,7 +995,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		document.addEventListener('touchstart', init);
 
 		document.body.addEventListener('orientationchange', resize);
-
 		window.addEventListener('resize', resize);
 
 		window.addEventListener('keyup', keyup);
@@ -1062,7 +1003,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 		window.addEventListener('blur', stop);
 
-		
+	
 
 		resize();
 
@@ -1071,7 +1012,6 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		if(window.DEBUG) {
 
 			
-
 			var gui = new dat.GUI();
 
 			
@@ -1080,7 +1020,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 			settings.gui.add(settings, 'trails', 1, 30).onChange(reset);
 
-			settings.gui.add(settings, 'size', 25, 75).onFinishChange(reset);
+			settings.gui.add(settings, 'size', 25, 75).onFinishChange(reset
 
 			settings.gui.add(settings, 'friction', 0.45, 0.55).onFinishChange(reset);
 
@@ -1090,29 +1030,4 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 			
 
-			document.body.appendChild(ctx.stats.domElement);
-
-		}
-
-	};
-
- 
-
-})(window);
-
- 
-
-</script>
-
- 
-
-</body>
-
-</html>
-
- 
-
-
-
-
-
+			document.body.appendChild
